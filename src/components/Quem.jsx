@@ -30,7 +30,7 @@ function Quem () {
                                 <h3 className="title">Meu currículo</h3>
                                 <p className="description">
                                     <ul className="list-unstyled">
-                                        <li>Em 1996, assumi a direção da creche do presídio feminimo</li>
+                                        <li>Em 1996, assumi a direção da creche do presídio feminino - SUPEN (RO)</li>
                                     </ul>
                                 </p>
                             </div>
