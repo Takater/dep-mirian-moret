@@ -5,12 +5,13 @@ import { useMediaQuery } from 'react-responsive'
 function Header () {
 
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
-    const isTablet = useMediaQuery({ query: '(max-width: 1080px)' });
+    const isTablet = useMediaQuery({ query: '(max-width: 1023px)' });
 
     const listStyle = {
         margin: '-5% auto',
         fontSize: isMobile ? '1.5vh' : isTablet ? '100%' : '200%',
-        padding: 'auto'
+        padding: 'auto',
+        textAlign: 'center'
     }
 
     return (
@@ -18,8 +19,8 @@ function Header () {
             <img src={header} alt="Miriam"/>
             <ul style={listStyle} className="list-group list-group-horizontal">
                 <li className="list-group-item mx-auto">QUEM SOU EU?</li>
-                <li className="list-group-item">QUAIS PROJETOS EU JÁ FIZ?</li>
-                <li className="list-group-item">QUAIS OS PROJETOS PARA MEU MANDATO?</li>
+                <li className="list-group-item mx-auto">QUAIS PROJETOS EU JÁ FIZ?</li>
+                <li className="list-group-item mx-auto">QUAIS OS PROJETOS PARA MEU MANDATO?</li>
             </ul>
         </div>
     )
