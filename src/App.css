@@ -7,11 +7,5 @@
   float: left;
   top: 80%;
   right: 5vw;
-}
-
-@media(max-width: 767px) {
-  #link-list {
-    top: 40%;
-    font-size: 1vw;
-  }
+  font-size: 1vw;
 }
