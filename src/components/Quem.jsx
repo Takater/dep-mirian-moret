@@ -8,7 +8,7 @@ function Quem () {
                     <div className="main-timeline5">
                         <div className="timeline">
                             <div className="timeline-content">
-                                
+                                <div className="timeline-icon"><span class="year">1966</span></div>
                                 <h3 className="title">Quem sou eu?</h3>
                                 <p className="description">Me chamo Mirian Moret de Freitas Lucena, tenho 56 anos, sou natural do
                                 Rio de Janeiro. Casada há 27 anos com Rogélio Pinheiro Lucena (em memória), tenho 4 lindos filhos.
