@@ -8,7 +8,8 @@ function Quem () {
                     <div className="main-timeline5">
                         <div className="timeline">
                             <div className="timeline-content">
-                                <h3></h3>
+                                <h3 className="title">Quem sou eu?</h3>
+                                <p className="description">Me chamo Mirian Moret de Freitas Lucena</p>
                             </div>
                         </div>
                     </div>
