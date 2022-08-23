@@ -9,7 +9,8 @@ function Header () {
 
     const listStyle = {
         margin: '-5% auto',
-        fontSize: isMobile ? '1.5vh' : '100%'
+        fontSize: isMobile ? '1.5vh' : '100%',
+        padding: 'auto'
     }
 
     return (
