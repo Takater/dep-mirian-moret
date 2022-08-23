@@ -9,7 +9,7 @@ function Header () {
 
     const listStyle = {
         margin: '-5% auto',
-        fontSize: isMobile ? '1.5vh' : '100%',
+        fontSize: isMobile ? '1.5vh' : isTablet ? '100%' : '200%',
         padding: 'auto'
     }
 
