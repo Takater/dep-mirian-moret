@@ -4,10 +4,18 @@ import { useMediaQuery } from 'react-responsive'
 
 function Header () {
 
+    const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+    const isTablet = useMediaQuery({ query: '(max-width: 1080px)' });
+
+    const listStyle = {
+        position: '',
+        float: 'right'
+    }
+
     return (
         <div id="header">
             <img src={header} alt="Miriam"/>
-            <ul id="link-list" className="list-group list-group-horizontal">
+            <ul style={listStyle} className="list-group list-group-horizontal">
                 <li className="list-group-item">QUEM SOU EU?</li>
                 <li className="list-group-item">QUAIS PROJETOS EU JÁ FIZ?</li>
                 <li className="list-group-item">QUAIS OS PROJETOS PARA MEU MANDATO?</li>
