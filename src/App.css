@@ -5,6 +5,13 @@
 #link-list {
   position: absolute;
   float: left;
-  top: 50%;
-  left: 50%;
+  top: 80%;
+  right: 5vw;
+}
+
+@media(max-width: 767px) {
+  #link-list {
+    top: 40%;
+    font-size: 1vw;
+  }
 }
