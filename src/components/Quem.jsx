@@ -18,10 +18,21 @@ function Quem () {
                         <div className="timeline">
                             <div className="timeline-icon"><span class="year">1983</span></div>
                             <div className="timeline-content">
-                                <h3 className="title">História em Rondônia</h3>
+                                <h3 className="title">Minha história em Rondônia</h3>
                                 <p className="description">Me mudei do Paraná para Rondônia em 1983 com meus pais, onde meu pai veio para
                                 assumir a presidência da Primeira Igreja Batista. Em 1990 fui aprovada no concurso de agente penitenciário,
                                 desde então, atuo no serviço público, assumindo cargos de gerência e diretoria.</p>
+                            </div>
+                        </div>
+                        <div className="timeline">
+                            <div className="timeline-icon"><span class="year">1996</span></div>
+                            <div className="timeline-content">
+                                <h3 className="title">Meu currículo</h3>
+                                <p className="description">
+                                    <ul className="list-unstyled">
+                                        <li>Em 1996, assumi a direção da creche do presídio feminimo</li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
