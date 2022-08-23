@@ -7,7 +7,6 @@ function Quem () {
                 <div className="col-md-12">
                     <div className="main-timeline5">
                         <div className="timeline">
-                            <div id="content">
                                 <ul className="timeline">
                                     <li className="event" data-date="2001 - 2004">
                                         <h3>Quem é Geovanni Sampaio?</h3>
@@ -22,7 +21,6 @@ function Quem () {
                                         <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP.</p>
                                     </li>
                                 </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
