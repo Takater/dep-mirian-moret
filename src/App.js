@@ -5,8 +5,10 @@ import './App.css'
 
 function App() {
   return (
-    <Header />
-    <Quem />
+    <div id="App">
+      <Header />
+      <Quem />
+    </div>
   );
 }
 
