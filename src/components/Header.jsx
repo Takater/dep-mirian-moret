@@ -4,13 +4,13 @@ import { useMediaQuery } from 'react-responsive'
 
 function Header () {
 
-    const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
     const isTablet = useMediaQuery({ query: '(max-width: 1080px)' });
 
     const listStyle = {
         float: 'right',
         marginTop: '-5%',
-        fontSize: isMobile ? '2vh' : '100%'
+        fontSize: isMobile ? '2vh' : isTablet ? '3vh' : '100%'
     }
 
     return (
