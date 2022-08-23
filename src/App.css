@@ -9,10 +9,3 @@
   right: 5vw;
   font-size: 1vw;
 }
-
-@media(min-width: 320px) {
-  #link-list {
-    position: flex;
-    justify-content: center;
-  }
-}

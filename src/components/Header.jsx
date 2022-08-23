@@ -1,5 +1,6 @@
 import React from 'react'
 import header from '../images/fotoheader.png'
+import { useMediaQuery } from 'react-responsive'
 
 function Header () {
 
