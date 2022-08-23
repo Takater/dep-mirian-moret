@@ -16,7 +16,7 @@ function Header () {
 
     return (
         <div id="header">
-            <img src={header} alt="Miriam"/>
+            <img src={header} alt="Miriam Moret 77123"/>
             <ul style={listStyle} className="list-group list-group-horizontal">
                 <li className="list-group-item mx-auto"><a href="#quemsoueu">QUEM SOU EU?</a></li>
                 <li className="list-group-item mx-auto"><a href="#projetos">QUAIS PROJETOS EU JÁ FIZ?</a></li>
