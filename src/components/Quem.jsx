@@ -18,10 +18,8 @@ function Quem () {
                         <div className="timeline">
                             <div className="timeline-icon"><span class="year">1983</span></div>
                             <div className="timeline-content">
-                                <h3 className="title">Quem sou eu?</h3>
-                                <p className="description">Me chamo Mirian Moret de Freitas Lucena, tenho 56 anos, sou natural do
-                                Rio de Janeiro. Casada há 27 anos com Rogélio Pinheiro Lucena (em memória), tenho 4 lindos filhos.
-                                Filha do Pastor Joil Dias de Freitas e Noemia Moret de Freitas.</p>
+                                <h3 className="title">História em Rondônia</h3>
+                                <p className="description">Me mudei do Paraná para Rondônia em 1983 com meus pais. Meu pai assi,oroa </p>
                             </div>
                         </div>
                     </div>
