@@ -8,9 +8,9 @@ function Header () {
     const isTablet = useMediaQuery({ query: '(max-width: 1080px)' });
 
     const listStyle = {
-        float: 'right',
+        float: 'left',
         marginTop: '-5%',
-        fontSize: isMobile ? '2vh' : isTablet ? '3vh' : '100%'
+        fontSize: isMobile ? '1.5vh' : '100%'
     }
 
     return (
