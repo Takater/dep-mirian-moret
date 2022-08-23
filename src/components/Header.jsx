@@ -8,8 +8,8 @@ function Header () {
     const isTablet = useMediaQuery({ query: '(max-width: 1080px)' });
 
     const listStyle = {
-        position: '',
-        float: 'right'
+        float: 'right',
+        marginTop: '-5%'
     }
 
     return (
