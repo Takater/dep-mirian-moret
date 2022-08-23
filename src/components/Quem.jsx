@@ -29,8 +29,12 @@ function Quem () {
                             <div className="timeline-content">
                                 <h3 className="title">Meu currículo</h3>
                                 <p className="description">
-                                    <ul className="list-unstyled">
+                                    <ul style={{listStyleType: 'circle'}}>
                                         <li>Em 1996, assumi a direção da creche do presídio feminino - SUPEN (RO)</li>
+                                        <li>Em 1997, assumi a direção do grupo de recursos humanos - SUPEN (RO)</li>
+                                        <li>Em 1998, assumi a direção do albergue feminino - SUPEN (RO)</li>
+                                        <li>Entre 1999 a 2003, fui diretora da casa da adolescente - FASER</li>
+                                        <li>Ainda em 2003, assumi a direção da casa do adolescente e internação provisória - FASER</li>
                                     </ul>
                                 </p>
                             </div>
