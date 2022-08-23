@@ -16,8 +16,13 @@
   text-shadow: 1px 1px #1e1848;
 }
 
-.list-group-item:hover {
+.list-group-item:hover, li>a:hover {
   color: #fe3700;
   text-shadow: 1px 1px #3a0ebc;
   cursor: pointer;
+}
+
+li>a {
+  text-decoration: none;
+  color: inherit;
 }

@@ -20,7 +20,7 @@ function Header () {
             <ul style={listStyle} className="list-group list-group-horizontal">
                 <li className="list-group-item mx-auto"><a href="#quemsoueu">QUEM SOU EU?</a></li>
                 <li className="list-group-item mx-auto"><a href="#projetos">QUAIS PROJETOS EU JÁ FIZ?</a></li>
-                <li className="list-group-item mx-auto"><a href="#">QUAIS OS PROJETOS PARA MEU MANDATO?</a></li>
+                <li className="list-group-item mx-auto"><a href="#propostas">QUAIS AS PROPOSTAS PARA MEU MANDATO?</a></li>
             </ul>
         </div>
     )
