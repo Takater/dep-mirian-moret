@@ -18,9 +18,9 @@ function Header () {
         <div id="header">
             <img src={header} alt="Miriam"/>
             <ul style={listStyle} className="list-group list-group-horizontal">
-                <li className="list-group-item mx-auto"><a>QUEM SOU EU?</a></li>
-                <li className="list-group-item mx-auto"><a>QUAIS PROJETOS EU JÁ FIZ?</a></li>
-                <li className="list-group-item mx-auto"><a>QUAIS OS PROJETOS PARA MEU MANDATO?</a></li>
+                <li className="list-group-item mx-auto"><a href="#quemsoueu">QUEM SOU EU?</a></li>
+                <li className="list-group-item mx-auto"><a href="#projetos">QUAIS PROJETOS EU JÁ FIZ?</a></li>
+                <li className="list-group-item mx-auto"><a href="#">QUAIS OS PROJETOS PARA MEU MANDATO?</a></li>
             </ul>
         </div>
     )
