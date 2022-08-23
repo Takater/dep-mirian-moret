@@ -9,7 +9,8 @@ function Header () {
 
     const listStyle = {
         float: 'right',
-        marginTop: '-5%'
+        marginTop: '-5%',
+        fontSize: isMobile ? '2vh' : '100%'
     }
 
     return (
