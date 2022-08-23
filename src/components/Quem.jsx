@@ -19,7 +19,9 @@ function Quem () {
                             <div className="timeline-icon"><span class="year">1983</span></div>
                             <div className="timeline-content">
                                 <h3 className="title">História em Rondônia</h3>
-                                <p className="description">Me mudei do Paraná para Rondônia em 1983 com meus pais. Meu pai assi,oroa </p>
+                                <p className="description">Me mudei do Paraná para Rondônia em 1983 com meus pais, onde meu pai veio para
+                                assumir a presidência da Primeira Igreja Batista. Em 1990 fui aprovada no concurso de agente penitenciário,
+                                desde então, atuo no serviço público em cargos operacionais e de diretoria</p>
                             </div>
                         </div>
                     </div>
