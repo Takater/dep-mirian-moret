@@ -21,7 +21,7 @@ function Quem () {
                                 <h3 className="title">História em Rondônia</h3>
                                 <p className="description">Me mudei do Paraná para Rondônia em 1983 com meus pais, onde meu pai veio para
                                 assumir a presidência da Primeira Igreja Batista. Em 1990 fui aprovada no concurso de agente penitenciário,
-                                desde então, atuo no serviço público em cargos operacionais e de diretoria</p>
+                                desde então, atuo no serviço público, assumindo cargos de gerência e diretoria.</p>
                             </div>
                         </div>
                     </div>
