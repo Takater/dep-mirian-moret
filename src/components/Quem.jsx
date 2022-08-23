@@ -4,7 +4,7 @@ function Quem () {
     return (
         <div id="quemsoueu">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-12">
                     <div className="card">
                         <div className="card-body">
                             <div id="content">
