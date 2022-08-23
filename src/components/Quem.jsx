@@ -5,8 +5,8 @@ function Quem () {
         <div id="quemsoueu">
             <div className="row">
                 <div className="col-md-12">
-                    <div className="card">
-                        <div className="card-body">
+                    <div className="main-timeline5">
+                        <div className="timeline">
                             <div id="content">
                                 <ul className="timeline">
                                     <li className="event" data-date="2001 - 2004">
