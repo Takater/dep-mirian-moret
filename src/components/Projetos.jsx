@@ -21,7 +21,7 @@ function Projetos () {
             description: "Atuação constante e contínua auxiliando a distribuição de acessórios e equipamentos para pessoas com necessidades especiais, incluindo idosos."
         },
         {
-            image: "",
+            image: "https://www.fmetropolitana.com.br/wp-content/uploads/2020/08/Doen%C3%A7as-identificadas-tiveram-tratamento-prontamente-iniciado.jpg",
             title: "Saúde do Estado de Justiça",
             description: "Impacto direto e significativo na gestão de consultas e distribuição de medicamentos em penitenciárias de todo o estado."
         },
@@ -73,7 +73,7 @@ function Projetos () {
                             <div className="col-md-4" key={ind}>
                                 <div className="card">
                                     <div className="card-body">
-                                        <img src={ projeto.image } alt={"Imagem: " + projeto.title}/>
+                                        <img className="project-image" src={ projeto.image } alt={"Imagem: " + projeto.title}/>
                                         <h4 className="card-title">{ projeto.title }</h4>
                                         <p className="card-text">{ projeto.description }</p>
                                     </div>
