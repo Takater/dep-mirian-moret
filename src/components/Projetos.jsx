@@ -22,6 +22,11 @@ function Projetos () {
         },
         {
             image: "",
+            title: "Saúde do Estado de Justiça",
+            description: "Impacto direto e significativo na gestão de consultas e distribuição de medicamentos em penitenciárias de todo o estado."
+        },
+        {
+            image: "",
             title: "Ressocialização Carcerária",
             description: "Projeto Antitabagismo e instalação de brinquedotecas para filhos dos reeducandos na Colônia Agrícola Penal Ênio Pinheiro"
         },
