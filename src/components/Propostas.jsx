@@ -4,7 +4,8 @@ function Propostas () {
     return (
         <div id="propostas">
             <h3>
-                São partes das responsabilidades de um(a) Dep. Estadual: apresentar projetos, f
+                A principal responsabilidade de um(a) Dep. Estadual é representar o povo dentro da Assembléia Legislativa do Estado
+                que foi eleito. Isso inclui: 
             </h3>
         </div>
     )
