@@ -31,7 +31,7 @@ function Projetos () {
             description: "Projeto Antitabagismo e instalação de brinquedotecas para filhos dos reeducandos na Penitenciária Estadual Ênio dos Santos Pinheiro"
         },
         {
-            image: "",
+            image: "http://www.seguranca.mg.gov.br/images/2020/Setembro/laboratrio%20de%20informtica.jpeg",
             title: "Ressocialização de Adolescentes",
             description: "Instalação de laboratório de informática e implantação de cursos de violão, estamparia, e pintura em tela no centro de ressocialização de adolescentes."
         }
