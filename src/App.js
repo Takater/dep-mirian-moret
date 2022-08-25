@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Quem from './components/Quem'
 import Projetos from './components/Projetos'
+import Propostas from './components/Propostas'
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Quem />
       <Projetos />
+      <Propostas />
     </div>
   );
 }
