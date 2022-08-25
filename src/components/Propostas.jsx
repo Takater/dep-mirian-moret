@@ -34,6 +34,15 @@ function Propostas () {
         value: PropTypes.number.isRequired,
     };
 
+    function allyProps(index) {
+        return {
+            id: `simple-tab-${index}`,
+            'aria-controls': `simple-tabpanel-${index}`
+        };
+    }
+
+    export default Bas
+
     return (
         <div id="propostas">
             <h3>
@@ -42,6 +51,14 @@ function Propostas () {
                 Estadual (Governador). Sendo assim, como Deputada Estadual, irei criar projetos voltados para as áreas
                 de <span>Saúde</span>, <span>Educação</span> e <span>Segurança Pública</span>.
             </h3>
+            <Box sx={{width: '100%'}}>
+                <Box sx={{borderBottom: 1, borderColor: 'divider'}}>
+                    <Tabs value={value} onChange={handleChange}>
+
+                    </Tabs>
+
+                </Box>
+            </Box>
         </div>
     )
 }
