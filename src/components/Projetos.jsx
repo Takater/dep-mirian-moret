@@ -16,7 +16,7 @@ function Projetos () {
             description: "Providenciei a finalização de projetos para instalação de equipamentos melhores para enfermarias no Estado."
         },
         {
-            image: "",
+            image: "https://www.portalcomunicare.com.br/wp-content/uploads/2016/04/img_757x4262014_12_02_08_24_20_421264.jpg",
             title: "Contribuição Social",
             description: "Atuação constante e contínua auxiliando a distribuição de acessórios e equipamentos para pessoas com necessidades especiais, incluindo idosos."
         },
