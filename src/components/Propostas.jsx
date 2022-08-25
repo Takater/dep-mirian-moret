@@ -67,19 +67,26 @@ import Box from '@mui/material/Box';
                         variant="scrollable"
                         sx={{borderRight: 1, borderColor: 'divider'}}
                         >
-                        <Tab className="fs-3" label="Saúde" {...allyProps(0)}/>
-                        <Tab className="fs-3" label="Educação" {...allyProps(1)}/>
-                        <Tab className="fs-3" label="Segurança Pública" {...allyProps(2)}/>
+                        <Tab className="fs-3 tab-label" label="Saúde" {...allyProps(0)}/>
+                        <Tab className="fs-3 tab-label" label="Educação" {...allyProps(1)}/>
+                        <Tab className="fs-3 tab-label" label="Segurança Pública" {...allyProps(2)}/>
                     </Tabs>
                 </Box>
                 <TabPanel value={value} index={0}>
-                    Iremos criar projetos para criação de áreas para idosos e cobrar o investimento em centros de sáude.
+                    <p className="fs-5 tab-text">Iremos criar projetos para criação de áreas para idosos e cobrar o investimento em centros de sáude.</p>
                 </TabPanel>
                 <TabPanel value={value} index={1}>
-                    Para mim, a Educação é o pilar da sociedade e precisar ser realmente valorizado.<br />
-                    Iremos criar projetos para implantação de aulas gratuitas nas áreas de esporte, arte, e musicalização em escolas e igrejas, e
-                    ampliação da quantidade de creches públicas em período integral para permitir que mães que não têm condições
-                    de pagar uma babá
+                    <p className="fs-5 tab-text">
+                        Para mim, a Educação é o pilar da sociedade e precisar ser realmente valorizado.<br />
+                        Iremos criar projetos para implantação de aulas gratuitas nas áreas de esporte, arte, e musicalização em escolas e igrejas, e
+                        ampliação da quantidade de creches públicas em período integral para permitir que mães que não têm condições
+                        de pagar uma babá
+                    </p>
+                </TabPanel>
+                <TabPanel value={value} index={2}>
+                    <p className="fs-5 tab-text">
+
+                    </p>
                 </TabPanel>
             </Box>
         </div>

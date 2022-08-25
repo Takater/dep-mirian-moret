@@ -139,3 +139,7 @@ li>a {
 #propostas>h3>span {
   text-decoration: underline #ff3700;
 }
+
+.tab-label {
+  background-color: #000;
+}
