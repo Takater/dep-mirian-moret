@@ -3,6 +3,15 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
 
 function Projetos () {
+
+    const projetos = [
+        {
+            image: "",
+            title: "",
+            description: ""
+        }
+    ]
+
     return (
         <div id="projetos">
             <h3>Além de constantes lutas por melhorias para valorização policial, reeducação carcerária, e saúde pública ao longo
@@ -17,6 +26,7 @@ function Projetos () {
                 showThumbs={false}
             >
                 <div className="row">
+                    { projetos.filter(map)}
                     <div className="col-md-4">
                         <div className="card">
                             <div className="card-body">
