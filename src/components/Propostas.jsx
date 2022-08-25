@@ -57,8 +57,13 @@ import Box from '@mui/material/Box';
             </h3>
             <Box sx={{width: '100%'}}>
                 <Box sx={{borderBottom: 1, borderColor: 'divider'}}>
-                    <Tabs value={value} onChange={handleChange}
-                    aria-label="Painel de Propostas">
+                    <Tabs
+                        value={value}
+                        onChange={handleChange}
+                        aria-label="Painel de Propostas"
+                        orientation="vertical"
+                        variant="scrollable"
+                        >
                         <Tab label="Saúde" {...allyProps(0)}/>
                         <Tab label="Educação" {...allyProps(1)}/>
                         <Tab label="Segurança Pública" {...allyProps(2)}/>
