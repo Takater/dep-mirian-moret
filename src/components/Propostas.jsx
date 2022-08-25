@@ -67,6 +67,12 @@ import Box from '@mui/material/Box';
                 <TabPanel value={value} index={0}>
                     Iremos criar projetos para criação de áreas para idosos e cobrar o investimento em centros de sáude.
                 </TabPanel>
+                <TabPanel value={value} index={1}>
+                    Para mim, a Educação é o pilar da sociedade e precisar ser realmente valorizado.<br />
+                    Iremos criar projetos para implantação de aulas gratuitas nas áreas de esporte, arte, e musicalização em escolas e igrejas, e
+                    ampliação da quantidade de creches públicas em período integral para permitir que mães que não têm condições
+                    de pagar uma babá
+                </TabPanel>
             </Box>
         </div>
     )
