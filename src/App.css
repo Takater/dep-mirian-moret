@@ -110,8 +110,8 @@ li>a {
 }
 
 .card-title {
-  color: #ff3700;
-  text-decoration: underline;
+  color: #fc7300;
+  background: #1e1848;
 }
 
 .card-text {
