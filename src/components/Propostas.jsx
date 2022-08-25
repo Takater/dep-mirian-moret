@@ -65,7 +65,7 @@ import Box from '@mui/material/Box';
                     </Tabs>
                 </Box>
                 <TabPanel value={value} index={0}>
-                    Na área de saúde 
+                    Iremos criar projetos para criação de áreas para idosos e cobrar o investimento em centros de sáude.
                 </TabPanel>
             </Box>
         </div>
