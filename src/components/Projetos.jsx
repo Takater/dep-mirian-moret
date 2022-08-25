@@ -14,6 +14,16 @@ function Projetos () {
             image: "",
             title: "Conclusão de Projetos",
             description: "Providenciei a finalização de projetos para instalação de equipamentos melhores para enfermarias no Estado."
+        },
+        {
+            image: "",
+            title: "Contribuição Social",
+            description: "Atuação constante e contínua auxiliando a distribuição de acessórios e equipamentos para pessoas com necessidades especiais, incluindo idosos."
+        },
+        {
+            image: "",
+            title: "Ressocialização Carcerária",
+            description: "Projeto Antitabagismo e instalação de brinquedotecas para filhos dos reeducandos na Colônia Agrícola Penal Ênio Pinheiro"
         }
     ]
 
