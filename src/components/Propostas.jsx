@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 
 function Propostas () {
 
-    // Grade do Painel
+    // Painel da Aba
     function TabPanel(props) {
         const { children, value, index, ...other} = props;
 
@@ -27,6 +27,12 @@ function Propostas () {
             </div>
         )
     }
+
+    TabPanel.propTypes = {
+        children: PropTypes.node,
+        index: PropTypes.number.isRequired,
+        value: PropTypes.number.isRequired,
+    };
 
     return (
         <div id="propostas">
