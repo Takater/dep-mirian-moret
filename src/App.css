@@ -101,7 +101,7 @@ li>a {
 }
 
 .card {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -110,9 +110,11 @@ li>a {
 }
 
 .card-title {
-  color: #ff6101;
+  color: #ff3700;
+  text-decoration: underline;
 }
 
-.card-description {
+.card-text {
   color: #fff;
+  font-size: 130%;
 }
