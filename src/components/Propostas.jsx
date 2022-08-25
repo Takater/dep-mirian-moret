@@ -58,7 +58,7 @@ import Box from '@mui/material/Box';
             <Box
                 sx={{ flexGrow: 1, display: 'flex'}}
             >
-                <Box sx={{ backgroundColor: 'rgba(0, 0, 0, 1)'}}>
+                <Box>
                     <Tabs
                         value={value}
                         onChange={handleChange}
@@ -67,9 +67,9 @@ import Box from '@mui/material/Box';
                         variant="scrollable"
                         sx={{borderRight: 1, borderColor: 'divider'}}
                         >
-                        <Tab label="Saúde" {...allyProps(0)}/>
-                        <Tab label="Educação" {...allyProps(1)}/>
-                        <Tab label="Segurança Pública" {...allyProps(2)}/>
+                        <Tab className="fs-3" label="Saúde" {...allyProps(0)}/>
+                        <Tab className="fs-3" label="Educação" {...allyProps(1)}/>
+                        <Tab className="fs-3" label="Segurança Pública" {...allyProps(2)}/>
                     </Tabs>
                 </Box>
                 <TabPanel value={value} index={0}>
