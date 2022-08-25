@@ -130,8 +130,8 @@ li>a {
 }
 
 #propostas>h3 {
-  color: #cc7300;
-  text-shadow: 1px 2px #000;
+  color: #000;
+  text-shadow: 1px 1px #ec7300;
   font-weight: bold;
   font-size: 200%;
   margin-bottom: 2%;
