@@ -42,6 +42,7 @@ function Projetos () {
             <h3>Além de constantes lutas por melhorias para valorização policial, reeducação carcerária, e saúde pública ao longo
                 de anos, atuei diretamente nas seguintes melhorias no serviço público do estado:
             </h3>
+            <hr />
             <Carousel
                 width="100%"
                 centerMode={true}
