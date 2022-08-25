@@ -24,6 +24,11 @@ function Projetos () {
             image: "",
             title: "Ressocialização Carcerária",
             description: "Projeto Antitabagismo e instalação de brinquedotecas para filhos dos reeducandos na Colônia Agrícola Penal Ênio Pinheiro"
+        },
+        {
+            image: "",
+            title: "Ressocialização de Adolescentes",
+            description: "Instalação de laboratório de informática e implantação de cursos de violão, estamparia, e pintura em tela no centro de ressocialização de adolescentes."
         }
     ]
 
