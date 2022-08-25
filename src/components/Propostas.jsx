@@ -13,8 +13,8 @@ import Box from '@mui/material/Box';
             <div
                 role="tabpanel"
                 hidden={value !== index}
-                id={`simple-tabpanel-${index}`}
-                aria-labelledby={`simple-tab-${index}`}
+                id={`vertical-tabpanel-${index}`}
+                aria-labelledby={`vertical-tab-${index}`}
                 {...other}
             >
                 {value === index && (
@@ -34,8 +34,8 @@ import Box from '@mui/material/Box';
 
     function allyProps(index) {
         return {
-            id: `simple-tab-${index}`,
-            'aria-controls': `simple-tabpanel-${index}`
+            id: `vertical-tab-${index}`,
+            'aria-controls': `vertical-tabpanel-${index}`
         };
     }
 
@@ -56,13 +56,16 @@ import Box from '@mui/material/Box';
                 de <span>Saúde</span>, <span>Educação</span> e <span>Segurança Pública</span>.
             </h3>
             <Box sx={{width: '100%'}}>
-                <Box sx={{borderBottom: 1, borderColor: 'divider'}}>
+                <Box
+                    sx={{ flexGrow: 1, display: 'flex'}}
+                >
                     <Tabs
                         value={value}
                         onChange={handleChange}
                         aria-label="Painel de Propostas"
                         orientation="vertical"
                         variant="scrollable"
+                        sx={{borderRight: 1, borderColor: 'divider'}}
                         >
                         <Tab label="Saúde" {...allyProps(0)}/>
                         <Tab label="Educação" {...allyProps(1)}/>
