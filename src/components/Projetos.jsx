@@ -26,9 +26,9 @@ function Projetos () {
             description: "Impacto direto e significativo na gestão de consultas e distribuição de medicamentos em penitenciárias de todo o estado."
         },
         {
-            image: "",
+            image: "https://www.newsrondonia.com.br/imagensNoticias/image/brinquedoteca(1).jpg",
             title: "Ressocialização Carcerária",
-            description: "Projeto Antitabagismo e instalação de brinquedotecas para filhos dos reeducandos na Colônia Agrícola Penal Ênio Pinheiro"
+            description: "Projeto Antitabagismo e instalação de brinquedotecas para filhos dos reeducandos na Penitenciária Estadual Ênio dos Santos Pinheiro"
         },
         {
             image: "",
