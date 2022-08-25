@@ -41,6 +41,12 @@ import Box from '@mui/material/Box';
 
     function Propostas () {
 
+    const [value, setValue] = useState(0)
+
+    const handleChange = (event, newValue) => {
+        setValue(newValue);
+    }
+
     return (
         <div id="propostas">
             <h3>
@@ -51,11 +57,16 @@ import Box from '@mui/material/Box';
             </h3>
             <Box sx={{width: '100%'}}>
                 <Box sx={{borderBottom: 1, borderColor: 'divider'}}>
-                    <Tabs value={value} onChange={handleChange}>
-
+                    <Tabs value={value} onChange={handleChange}
+                    aria-label="Painel de Propostas">
+                        <Tab label="Saúde" {...allyProps(0)}/>
+                        <Tab label="Educação" {...allyProps(1)}/>
+                        <Tab label="Segurança Pública" {...allyProps(2)}/>
                     </Tabs>
-
                 </Box>
+                <TabPanel value={value} index={0}>
+                    Na área de saúde 
+                </TabPanel>
             </Box>
         </div>
     )
