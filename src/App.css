@@ -97,7 +97,10 @@ li>a {
 }
 
 .project-image {
-  max-width: 150px;
+  max-width: 300px;
+  max-height: 150px;
+  border-radius: 10px;
+  margin-bottom: 3%;
 }
 
 .card {
