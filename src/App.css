@@ -24,7 +24,7 @@
 
 .list-group-item:hover, li>a:hover {
   color: #ff6101;
-  text-shadow: 1px 1px #3a0ebc;
+  text-shadow: 1px 1px #ff3700;
   cursor: pointer;
 }
 
@@ -60,12 +60,12 @@ li>a {
 .main-timeline5 .timeline:nth-child(2n) .timeline-content{float:left}
 .main-timeline5 .timeline:nth-child(2n) .timeline-content:before{left:auto;right:-20%}
 .main-timeline5 .timeline:nth-child(2n) .timeline-content,.main-timeline5 .timeline:nth-child(2n) .timeline-content:before{background:#701470}
-.main-timeline5 .timeline:nth-child(3n) .timeline-icon{border-top-color:#3a0ebc;border-right-color:#3a0ebc}
-.main-timeline5 .timeline:nth-child(3n) .year{color:#3a0ebc}
-.main-timeline5 .timeline:nth-child(3n) .timeline-content,.main-timeline5 .timeline:nth-child(3n) .timeline-content:before{background:#3a0ebc}
-.main-timeline5 .timeline:nth-child(4n) .timeline-icon{border-top-color:#ff3700;border-right-color:#ff3700}
-.main-timeline5 .timeline:nth-child(4n) .year{color:#ff3700}
-.main-timeline5 .timeline:nth-child(4n) .timeline-content,.main-timeline5 .timeline:nth-child(4n) .timeline-content:before{background:#ff3700}
+.main-timeline5 .timeline:nth-child(3n) .timeline-icon{border-top-color:#ff3700;border-right-color:#ff3700}
+.main-timeline5 .timeline:nth-child(3n) .year{color:#ff3700}
+.main-timeline5 .timeline:nth-child(3n) .timeline-content,.main-timeline5 .timeline:nth-child(3n) .timeline-content:before{background:#ff3700}
+.main-timeline5 .timeline:nth-child(4n) .timeline-icon{border-top-color:#3a0ebc;border-right-color:#3a0ebc}
+.main-timeline5 .timeline:nth-child(4n) .year{color:#3a0ebc}
+.main-timeline5 .timeline:nth-child(4n) .timeline-content,.main-timeline5 .timeline:nth-child(4n) .timeline-content:before{background:#3a0ebc}
 @media only screen and (max-width:1199px){.main-timeline5 .timeline{margin-top:-103px}
 .main-timeline5 .timeline-content:before{left:-18%}
 .main-timeline5 .timeline:nth-child(2n) .timeline-content:before{right:-18%}
@@ -85,5 +85,6 @@ li>a {
 /* PROJETOS */
 
 #projetos {
-  background: #
+  background: #ff3700;
+  padding: 2% 2% 5% 2%;
 }
