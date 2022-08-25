@@ -58,6 +58,7 @@ import Box from '@mui/material/Box';
             <Box
                 sx={{ flexGrow: 1, display: 'flex'}}
             >
+                <Box sx={{ backgroundColor: 'rgba(0, 0, 0, 1)'}}>
                     <Tabs
                         value={value}
                         onChange={handleChange}
@@ -70,6 +71,7 @@ import Box from '@mui/material/Box';
                         <Tab label="Educação" {...allyProps(1)}/>
                         <Tab label="Segurança Pública" {...allyProps(2)}/>
                     </Tabs>
+                </Box>
                 <TabPanel value={value} index={0}>
                     Iremos criar projetos para criação de áreas para idosos e cobrar o investimento em centros de sáude.
                 </TabPanel>
