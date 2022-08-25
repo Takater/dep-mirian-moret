@@ -130,15 +130,15 @@ li>a {
 }
 
 #propostas>h3 {
-  color: #000;
-  text-shadow: 0.5px 0.5px #ff3700;
+  color: #ec7300;
+  text-shadow: 1px 2px #000;
   font-weight: bold;
   font-size: 200%;
   margin-bottom: 2%;
 }
 
 #propostas>h3>span {
-  text-decoration: underline #ff3700;
+  text-decoration: underline #1e1848;
 }
 
 .tab-label {
