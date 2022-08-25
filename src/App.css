@@ -3,6 +3,8 @@
   background: #1e1848;
 }
 
+/* H E A D E R */
+
 #header>img {
   max-width: 100%;
 }
@@ -31,10 +33,12 @@ li>a {
   color: inherit;
 }
 
+/* QUEM SOU EU */
+
 #quemsoueu {
   background: #1e1848;
   position: relative;
-  margin: 10% auto;
+  margin: 10% 2% 5% 2%;
 }
 
 /******************* Timeline Demo - 5 *****************/
@@ -76,4 +80,10 @@ li>a {
 .main-timeline5 .timeline:nth-child(2n) .year,.main-timeline5 .year{transform:rotate(-135deg)}
 .main-timeline5 .timeline-content,.main-timeline5 .timeline:nth-child(2n) .timeline-content{width:100%;float:none;border-radius:0 0 20px 20px;text-align:center;padding:25px 20px;margin:0 auto}
 .main-timeline5 .timeline-content:before,.main-timeline5 .timeline:nth-child(2n) .timeline-content:before{width:15px;height:25px;position:absolute;top:-22px;left:50%;z-index:-1;transform:translate(-50%,0)}
+}
+
+/* PROJETOS */
+
+#projetos {
+  background: #
 }
