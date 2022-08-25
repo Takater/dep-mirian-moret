@@ -75,8 +75,8 @@ import Box from '@mui/material/Box';
                 <TabPanel value={value} index={0}>
                     <p className="fs-5 tab-text">A saúde é uma área muito esquecida pela administração estadual e municipais, principalmente
                     no atendimento a idosos e outras pessoas com necessidades especidades, iremos criar projetos para criação de áreas para esses
-                    tipos de pacientes e cobrar o investimento adequado e honesto em centros de sáude.<br /> Também iremos incentivar e apoiar a
-                    criação e aplicação de programas de castração, e de abrigos e clínicas pet populares.</p>
+                    tipos de pacientes e cobrar o investimento adequado e honesto em centros de sáude.<br /> Também iremos incentivar e apoiar
+                    programas de castração, e a criação de abrigos e clínicas pet populares.</p>
                 </TabPanel>
                 <TabPanel value={value} index={1}>
                     <p className="fs-5 tab-text">
