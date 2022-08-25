@@ -126,4 +126,12 @@ li>a {
 
 #propostas {
   background: #701470;
+  padding: 2% 2% 3% 2%;
+}
+
+#propostas>h3 {
+  color: #fff;
+  text-shadow: 2px 1px #ff6101;
+  font-weight: bold;
+  font-size: 225%;
 }
