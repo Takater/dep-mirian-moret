@@ -55,10 +55,10 @@ import Box from '@mui/material/Box';
                 Estadual (Governador). Sendo assim, como Deputada Estadual, irei criar projetos voltados para as áreas
                 de <span>Saúde</span>, <span>Educação</span> e <span>Segurança Pública</span>.
             </h3>
-            <Box sx={{width: '100%'}}>
-                <Box
-                    sx={{ flexGrow: 1, display: 'flex'}}
-                >
+            <Box
+                sx={{ flexGrow: 1, display: 'flex'}}
+            >
+                <Box>
                     <Tabs
                         value={value}
                         onChange={handleChange}
