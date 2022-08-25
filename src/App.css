@@ -130,10 +130,11 @@ li>a {
 }
 
 #propostas>h3 {
-  color: #fff;
-  text-shadow: 2px 1px #ff3700;
+  color: #000;
+  text-shadow: 0.5px 0.5px #ff3700;
   font-weight: bold;
   font-size: 200%;
+  margin-bottom: 2%;
 }
 
 #propostas>h3>span {
@@ -141,5 +142,9 @@ li>a {
 }
 
 .tab-label {
-  background-color: #000;
+  color: #ff6101 !important;
+}
+
+.tab-text {
+  color: white;
 }

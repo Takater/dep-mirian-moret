@@ -65,7 +65,7 @@ import Box from '@mui/material/Box';
                         aria-label="Painel de Propostas"
                         orientation="vertical"
                         variant="scrollable"
-                        sx={{borderRight: 1, borderColor: 'divider'}}
+                        sx={{borderRight: 1, borderColor: 'divider', backgroundColor: 'rgba(30, 24, 72, 1)', borderRadius: '16px'}}
                         >
                         <Tab className="fs-3 tab-label" label="Saúde" {...allyProps(0)}/>
                         <Tab className="fs-3 tab-label" label="Educação" {...allyProps(1)}/>
