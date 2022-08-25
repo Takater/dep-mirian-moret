@@ -5,6 +5,7 @@ import { Carousel } from 'react-responsive-carousel'
 function Projetos () {
     return (
         <div id="projetos">
+            <h1>Além de constantes lutas para trazer melhorias</h1>
             <Carousel
                 width="100%"
                 centerMode={true}
