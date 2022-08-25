@@ -85,15 +85,17 @@ li>a {
 /* PROJETOS */
 
 #projetos {
-  background: #ff3700;
+  background: #ff3714;
   padding: 2% 2% 5% 2%;
 }
 
 #projetos>h3 {
-  color: #222;
+  color: #000;
   text-shadow: 2px 1px #ff6101;
+  font-weight: bold;
+  font-size: 225%;
 }
 
-#projetos>hr {
-  
+.project-image {
+  max-width: 150px;
 }

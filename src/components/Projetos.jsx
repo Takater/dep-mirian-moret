@@ -6,7 +6,7 @@ function Projetos () {
 
     const projetos = [
         {
-            image: "",
+            image: "https://saude.goiania.go.gov.br/wp-uploads/sites/3/2020/10/prescricao-1.svg",
             title: "Saúde Pública",
             description: "Impactei diretamente na melhoria de gerenciamento e monitoramento de medicamentos e fui pioneira na distribuição de medicamentos para o interior do Estado."
         },
@@ -39,7 +39,7 @@ function Projetos () {
 
     return (
         <div id="projetos">
-            <h3>Além de constantes lutas por melhorias para valorização policial, reeducação carcerária, e saúde pública ao longo
+            <h3>Além de constantes lutas por melhorias para valorização policial, qualidade na reeducação carcerária, e saúde pública ao longo
                 de anos, atuei diretamente nas seguintes melhorias no serviço público do estado:
             </h3>
             <hr />
@@ -57,7 +57,7 @@ function Projetos () {
                             <div className="col-md-4" key={ind}>
                                 <div className="card">
                                     <div className="card-body">
-                                        <img src={ projeto.image } alt={"Imagem: " + projeto.title}/>
+                                        <img className="project-image" src={ projeto.image } alt={"Imagem: " + projeto.title}/>
                                         <h4 className="card-title">{ projeto.title }</h4>
                                         <p className="card-text">{ projeto.description }</p>
                                     </div>
