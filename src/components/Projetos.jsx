@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel'
 function Projetos () {
     return (
         <div id="projetos">
-            <h1>Além de constantes lutas para trazer melhorias</h1>
+            <h2>Além de constantes lutas por melhorias para valorização policial, reeducação carcerária</h2>
             <Carousel
                 width="100%"
                 centerMode={true}
