@@ -9,6 +9,11 @@ function Projetos () {
             image: "",
             title: "Saúde Pública",
             description: "Impactei diretamente na melhoria de gerenciamento e monitoramento de medicamentos e fui pioneira na distribuição de medicamentos para o interior do Estado."
+        },
+        {
+            image: "",
+            title: "Conclusão de Projetos",
+            description: "Providenciei a finalização de projetos para instalação de equipamentos melhores para enfermarias no Estado."
         }
     ]
 
