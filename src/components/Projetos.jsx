@@ -17,7 +17,14 @@ function Projetos () {
                 showThumbs={false}
             >
                 <div className="row">
-                    
+                    <div className="col-md-4">
+                        <div className="card">
+                            <div className="card-body">
+                                <h4 ckassName="card-title">Card Title</h4>
+                                <p className="card-text">Card description</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </Carousel>
         </div>
