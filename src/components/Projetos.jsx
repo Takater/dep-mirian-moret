@@ -5,7 +5,9 @@ import { Carousel } from 'react-responsive-carousel'
 function Projetos () {
     return (
         <div id="projetos">
-            <h2>Além de constantes lutas por melhorias para valorização policial, reeducação carcerária</h2>
+            <h3>Além de constantes lutas por melhorias para valorização policial, reeducação carcerária, e saúde pública ao longo
+                de anos, atuei diretamente nas seguintes melhorias no serviço público do estado:
+            </h3>
             <Carousel
                 width="100%"
                 centerMode={true}
