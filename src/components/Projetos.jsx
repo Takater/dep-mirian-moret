@@ -26,15 +26,19 @@ function Projetos () {
                 showThumbs={false}
             >
                 <div className="row">
-                    { projetos.filter(map)}
-                    <div className="col-md-4">
-                        <div className="card">
-                            <div className="card-body">
-                                <h4 ckassName="card-title">Card Title</h4>
-                                <p className="card-text">Card description</p>
+                    { projetos.map((projeto, ind) => {
+                        return ind >= 2 && (
+                            <div className="col-md-4" key={ind}>
+                                <div className="card">
+                                    <div className="card-body">
+                                        <img src={ projeto.image }/>
+                                        <h4 className="card-title">{ projeto.title }</h4>
+                                        <p className="card-text">{ projeto.description }</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        )
+                    )}}
                 </div>
             </Carousel>
         </div>
