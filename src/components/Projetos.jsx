@@ -7,8 +7,8 @@ function Projetos () {
     const projetos = [
         {
             image: "",
-            title: "",
-            description: ""
+            title: "Saúde Pública",
+            description: "Impactei diretamente na melhoria de gerenciamento e monitoramento de medicamentos e fui pioneira na distribuição de medicamentos para o interior do Estado."
         }
     ]
 
