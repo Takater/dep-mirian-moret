@@ -41,7 +41,7 @@ function Propostas () {
         };
     }
 
-    const []
+    function BasicTabs
 
     return (
         <div id="propostas">
