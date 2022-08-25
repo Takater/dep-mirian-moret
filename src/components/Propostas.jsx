@@ -79,8 +79,9 @@ import Box from '@mui/material/Box';
                     <p className="fs-5 tab-text">
                         Para mim, a Educação é o pilar da sociedade e precisar ser realmente valorizado.<br />
                         Iremos criar projetos para implantação de aulas gratuitas nas áreas de esporte, arte, e musicalização em escolas e igrejas, e
-                        ampliação da quantidade de creches públicas em período integral para permitir que mães que não têm condições
-                        de pagar uma babá
+                        ampliação da quantidade de creches públicas para período integral, para assim permitir que mães que não têm condições
+                        de pagar uma babá possam trabalhar. Além disso, na intenção de ajudar não só essas mães, mas também mulheres que sofrem
+                        violência doméstica e estão financeiramente presas, iremos criar projetos para cursos profissionalizantes para geração de renda.
                     </p>
                 </TabPanel>
                 <TabPanel value={value} index={2}>

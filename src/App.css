@@ -91,7 +91,6 @@ li>a {
 
 #projetos>h3 {
   color: #000;
-  text-shadow: 2px 1px #ff6101;
   font-weight: bold;
   font-size: 225%;
 }
@@ -131,7 +130,6 @@ li>a {
 
 #propostas>h3 {
   color: #000;
-  text-shadow: 1px 1px #ec7300;
   font-weight: bold;
   font-size: 200%;
   margin-bottom: 2%;
