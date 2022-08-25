@@ -41,7 +41,7 @@ function Propostas () {
         };
     }
 
-    export default Bas
+    const []
 
     return (
         <div id="propostas">
