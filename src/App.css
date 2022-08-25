@@ -131,7 +131,11 @@ li>a {
 
 #propostas>h3 {
   color: #fff;
-  text-shadow: 2px 1px #ff6101;
+  text-shadow: 2px 1px #ff3700;
   font-weight: bold;
-  font-size: 225%;
+  font-size: 200%;
+}
+
+#propostas>h3>span {
+  text-decoration: underline #ff3700;
 }
