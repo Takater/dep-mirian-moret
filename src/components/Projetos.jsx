@@ -11,7 +11,7 @@ function Projetos () {
             description: "Impactei diretamente na melhoria de gerenciamento e monitoramento de medicamentos e fui pioneira na distribuição de medicamentos para o interior do Estado."
         },
         {
-            image: "",
+            image: "https://www.sonoticias.com.br/wp-content/uploads/2021/06/Hospital-Regional-de-Sorriso-UTI-990x556.jpg",
             title: "Conclusão de Projetos",
             description: "Providenciei a finalização de projetos para instalação de equipamentos melhores para enfermarias no Estado."
         },
