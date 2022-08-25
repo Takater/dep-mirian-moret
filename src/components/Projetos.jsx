@@ -16,7 +16,7 @@ function Projetos () {
                 statusFormatter={(currentItem, total) => currentItem + "/" + total}
                 showThumbs={false}
             >
-
+                
             </Carousel>
         </div>
     )
