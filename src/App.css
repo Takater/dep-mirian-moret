@@ -159,7 +159,7 @@ h3>strong {
 .social-media-link {
   text-decoration: none;
   color: white;
-  margin-left: 1%;
+  word-spacing: 2%;
 }
 
 .social-media-link:hover {

@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../images/solidariedade-favicon.png'
 import InstagramIcon from '@mui/icons-material/Instagram'
+import EmailIcon from '@mui/icons-material/Email'
 
 export default function Contatos () {
     return (
@@ -15,10 +16,11 @@ export default function Contatos () {
                     </em>
                 </div>
                 <div className="col-md-4">
-                    <InstagramIcon /><a className="social-media-link" href="https://instagram.com/miriammoretlucena">
+                    <a className="social-media-link" href="https://instagram.com/miriammoretlucena">
+                        <InstagramIcon />
                         miriammoretlucena
                     </a><br />
-                    <a className="social-media-link" href="mailto:assessoriamirianmoret@gmail.com">
+                    <EmailIcon /><a className="social-media-link" href="mailto:assessoriamirianmoret@gmail.com">
                         assessoriamirianmoret@gmail.com
                     </a>
                 </div>
