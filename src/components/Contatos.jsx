@@ -15,13 +15,14 @@ export default function Contatos () {
                         <h3 style={{color: '#fe6101'}}><img src={logo} alt="Logo Solidariedade"/>SOLIDARIEDADE</h3>
                     </em>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 pb-4">
                     <a className="social-media-link" href="https://instagram.com/miriammoretlucena">
                         <InstagramIcon />
                         <span>miriammoretlucena</span>
                     </a><br />
-                    <EmailIcon /><a className="social-media-link" href="mailto:assessoriamirianmoret@gmail.com">
-                        assessoriamirianmoret@gmail.com
+                    <a className="social-media-link" href="mailto:assessoriamirianmoret@gmail.com">
+                        <EmailIcon />
+                        <span>assessoriamirianmoret@gmail.com</span>
                     </a>
                 </div>
                 <div className="col-md-4">
