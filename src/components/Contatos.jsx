@@ -7,11 +7,10 @@ export default function Contatos () {
             <div className="row">
                 <div className="col-md-4">
                     <em>
-                    <h1>Miriam Moret</h1>
-                    <h3><strong>77123</strong></h3>
-                    <h3 style={{color: '#fe6101'}}><img src={logo} alt="Logo Solidariedade"/>SOLIDARIEDADE</h3>
-                    <h5>47.579.027/0001-44</h5>
-
+                        <h1>Miriam Moret</h1>
+                        <h5>47.579.027/0001-44</h5>
+                        <h3><strong>77123</strong></h3>
+                        <h3 style={{color: '#fe6101'}}><img src={logo} alt="Logo Solidariedade"/>SOLIDARIEDADE</h3>
                     </em>
                 </div>
                 <div className="col-md-4">
