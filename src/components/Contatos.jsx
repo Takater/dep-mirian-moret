@@ -15,7 +15,7 @@ export default function Contatos () {
                         <h3 style={{color: '#fe6101'}}><img src={logo} alt="Logo Solidariedade"/>SOLIDARIEDADE</h3>
                     </em>
                 </div>
-                <div className="col-md-4" style={{justifyContent: 'space-between'}}>
+                <div className="col-md-4">
                     <a className="social-media-link" href="https://instagram.com/miriammoretlucena">
                         <InstagramIcon />
                         <span>miriammoretlucena</span>
