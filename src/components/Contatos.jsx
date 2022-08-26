@@ -16,12 +16,12 @@ export default function Contatos () {
                     </em>
                 </div>
                 <div className="col-md-4">
-                    <ul >
-                    <li><a className="social-media-link" href="https://instagram.com/miriammoretlucena">
+                    <ul className="list-group">
+                    <li className="list-group-item"><a className="social-media-link" href="https://instagram.com/miriammoretlucena">
                         <InstagramIcon />
                         <span>miriammoretlucena</span>
                     </a></li>
-                    <li><a className="social-media-link" href="mailto:assessoriamirianmoret@gmail.com">
+                    <li className="list-group-item"><a className="social-media-link" href="mailto:assessoriamirianmoret@gmail.com">
                         <EmailIcon />
                         <span>assessoriamirianmoret@gmail.com</span>
                     </a></li>
