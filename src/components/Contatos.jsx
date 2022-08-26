@@ -15,7 +15,10 @@ export default function Contatos () {
                     </em>
                 </div>
                 <div className="col-md-4">
-                    <InstagramIcon /> <a className="social-media-link">@miriammoretlucena</a>
+                    <InstagramIcon />
+                    <a className="social-media-link" href="https://instagram.com/miriammoretlucena">
+                        @miriammoretlucena
+                    </a>
                 </div>
                 <div className="col-md-4">
                     WhatsApp Group Link
