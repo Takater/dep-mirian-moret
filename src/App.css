@@ -159,8 +159,10 @@ h3>strong {
 .social-media-link {
   text-decoration: none;
   color: white;
+  margin-left: 1%;
 }
 
 .social-media-link:hover {
   color: #fe6101;
+  text-decoration: underline;
 }

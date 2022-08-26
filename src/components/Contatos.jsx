@@ -17,7 +17,7 @@ export default function Contatos () {
                 <div className="col-md-4">
                     <InstagramIcon />
                     <a className="social-media-link" href="https://instagram.com/miriammoretlucena">
-                        @miriammoretlucena
+                        miriammoretlucena
                     </a>
                 </div>
                 <div className="col-md-4">
