@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/solidariedade-favicon.png'
+import InstagramIcon from '@mui/icons-material/Instagram'
 
 export default function Contatos () {
     return (
@@ -14,7 +15,7 @@ export default function Contatos () {
                     </em>
                 </div>
                 <div className="col-md-4">
-                    Redes Sociais
+                    <InstagramIcon />
                 </div>
                 <div className="col-md-4">
                     WhatsApp Group Link
