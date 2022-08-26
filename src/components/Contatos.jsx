@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../images/solidariedade-favicon.png'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import EmailIcon from '@mui/icons-material/Email'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 
 export default function Contatos () {
     return (
@@ -26,7 +27,8 @@ export default function Contatos () {
                         <span>assessoriamirianmoret@gmail.com</span>
                     </a></li>
                     <li><a className="social-media-link" href="https://api.whatsapp.com/send?phone=5569992391429">
-                        
+                        <WhatsAppIcon />
+                        <span>(69) 99239-1429</span>
                     </a></li>
                     </ul>
                 </div>
