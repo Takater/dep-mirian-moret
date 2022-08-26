@@ -35,7 +35,7 @@ export default function Contatos () {
                 <div className="col-md-4">
                     <h1 style={{color: '#3a0ebc', textShadow: '1px 1px black'}}>Junte-se a nós!</h1>
                     <h5>Entre no nosso grupo de whatsapp através do link abaixo</h5>
-                    <a href="https://chat.whatsapp.com/GuXZdfR7EhP5FopIL7vHPy">Amigos De Mirian Moret</a>
+                    <a style={{ color: '#fff' }} className="fs-5" href="https://chat.whatsapp.com/GuXZdfR7EhP5FopIL7vHPy">Amigos De Mirian Moret</a>
                 </div>
             </div>
         </div>
