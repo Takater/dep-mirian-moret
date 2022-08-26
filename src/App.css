@@ -167,6 +167,7 @@ h3>strong {
 
 .social-media-link>span {
   padding-left: 2%;
+  text-shadow: none;
 }
 
 .social-media-link:hover {
