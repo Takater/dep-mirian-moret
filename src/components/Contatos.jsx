@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from 'https://www.solidariedade.org.br/media/2021/05/solidariedade-favicon.png'
+import logo from '../images/solidariedade-favicon.png'
 
 export default function Contatos () {
     return (
@@ -9,7 +9,7 @@ export default function Contatos () {
                     <em>
                     <h1>Miriam Moret</h1>
                     <h3><strong>77123</strong></h3>
-                    <p><img src={logo}/>Partido: Solidariedade</p>
+                    <h3 style={{color: '#fe6101'}}><img src={logo} alt="Logo Solidariedade"/>SOLIDARIEDADE</h3>
                     <h5>47.579.027/0001-44</h5>
 
                     </em>
