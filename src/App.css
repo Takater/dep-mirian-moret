@@ -1,6 +1,7 @@
 #App {
   max-width: 100%;
   background: #1e1848;
+  overflow-x: hidden;
 }
 
 /* H E A D E R */
@@ -145,4 +146,10 @@ li>a {
 
 .tab-text {
   color: white;
+  text-shadow: 1px 1px black;
+  font-size: 150%;
+}
+
+h3>strong {
+  color: #fe6101;
 }

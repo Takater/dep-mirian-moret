@@ -56,7 +56,7 @@ import Box from '@mui/material/Box';
                 de <span>Saúde</span>, <span>Educação</span> e <span>Segurança Pública</span>.
             </h3>
             <Box
-                sx={{ flexGrow: 1, display: 'flex'}}
+                sx={{ flexGrow: 2, display: 'flex'}}
             >
                 <Box>
                     <Tabs
@@ -73,13 +73,13 @@ import Box from '@mui/material/Box';
                     </Tabs>
                 </Box>
                 <TabPanel value={value} index={0}>
-                    <p className="fs-5 tab-text">A saúde é uma área muito esquecida pela administração estadual e municipais, principalmente
+                    <p className="tab-text">A saúde é uma área muito esquecida pela administração estadual e municipais, principalmente
                     no atendimento a idosos e outras pessoas com necessidades especidades, iremos criar projetos para criação de áreas para esses
                     tipos de pacientes e cobrar o investimento adequado e honesto em centros de sáude.<br /> Também iremos incentivar e apoiar
                     programas de castração, e a criação de abrigos e clínicas pet populares.</p>
                 </TabPanel>
                 <TabPanel value={value} index={1}>
-                    <p className="fs-5 tab-text">
+                    <p className="tab-text">
                         Para mim, a Educação é o pilar da sociedade e precisar ser realmente valorizado.<br />
                         Iremos criar projetos para implantação de aulas gratuitas nas áreas de esporte, arte, e musicalização em escolas e igrejas, e
                         ampliação da quantidade de creches públicas para período integral, para assim permitir que mães que não têm condições
@@ -88,8 +88,11 @@ import Box from '@mui/material/Box';
                     </p>
                 </TabPanel>
                 <TabPanel value={value} index={2}>
-                    <p className="fs-5 tab-text">
-
+                    <p className="tab-text">
+                        Como Policial Penal há mais de 30 anos, sei que a carência de qualidade no nosso estado é fruto também da desvalorização das
+                        carreiras policiais. Irei batalhar para que nossos profissionais heróis sejam valorizados como realmente merecem. Além disso,
+                        iremos criar um projeto para criação de uma casa de apoio a mulheres e crianças vítimas de violência doméstica e sexual, com
+                        apoio médico e psicológico.
                     </p>
                 </TabPanel>
             </Box>

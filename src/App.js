@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Quem from './components/Quem'
 import Projetos from './components/Projetos'
 import Propostas from './components/Propostas'
+import Contatos from './components/Contatos'
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Quem />
       <Projetos />
       <Propostas />
+      <Contatos />
     </div>
   );
 }

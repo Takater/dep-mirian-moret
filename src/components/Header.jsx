@@ -21,6 +21,7 @@ function Header () {
                 <li className="list-group-item mx-auto"><a href="#quemsoueu">Minha História</a></li>
                 <li className="list-group-item mx-auto"><a href="#projetos">Onde Fiz a Diferença</a></li>
                 <li className="list-group-item mx-auto"><a href="#propostas">O Que Pretendo Fazer</a></li>
+                <li className="list-group-item mx-auto"><a href="#contatos">Junte-se A Nós</a></li>
             </ul>
         </div>
     )
