@@ -34,7 +34,7 @@ export default function Contatos () {
                 </div>
                 <div className="col-md-4">
                     <h1 style={{color: '#3a0ebc', textShadow: '1px 1px black'}}>Junte-se a nós!</h1>
-                    <h5>Entre no nosso grupo de whatsapp:</h5>
+                    <h5>Entre no nosso grupo de whatsapp <br />clicando <a className="social-media-link">aqui</a></h5>
                 </div>
             </div>
         </div>
