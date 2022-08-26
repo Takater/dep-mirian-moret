@@ -156,6 +156,10 @@ h3>strong {
   color: #fe6101;
 }
 
+.list-unstyled>li {
+  margin-bottom: 5%;
+}
+
 .social-media-link {
   text-decoration: none;
   color: white;
