@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from 'https://www.solidariedade.org.br/media/2021/05/solidariedade-favicon.png'
+import logo from 'https://www.solidariedade.org.br/media/2021/05/logo.svg'
 
 export default function Contatos () {
     return (
