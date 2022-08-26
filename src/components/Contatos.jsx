@@ -33,7 +33,8 @@ export default function Contatos () {
                     </ul>
                 </div>
                 <div className="col-md-4">
-                    WhatsApp Group Link
+                    <h1 style={{color: '#3a0ebc', textShadow: '1px 1px black'}}>Junte-se a nós!</h1>
+                    <h5>Entre no nosso grupo de whatsapp:</h5>
                 </div>
             </div>
         </div>
