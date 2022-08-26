@@ -170,7 +170,7 @@ h3>strong {
   text-shadow: none;
 }
 
-.social-media-link:hover, a.fs-5:hover {
+.social-media-link:hover, .group-link:hover {
   color: #fe6101;
   text-decoration: underline;
 }
