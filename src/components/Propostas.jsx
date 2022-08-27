@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useMediaQuery } from 'react-responsive'
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -41,6 +42,8 @@ import Box from '@mui/material/Box';
 
     function Propostas () {
 
+    const isMobile = useMediaQuery({ query: '(max-width: 425px)' });
+
     const [value, setValue] = useState(0)
 
     const handleChange = (event, newValue) => {
@@ -56,14 +59,14 @@ import Box from '@mui/material/Box';
                 de <span>Saúde</span>, <span>Educação</span> e <span>Segurança Pública</span>.
             </h3>
             <Box
-                sx={{ flexGrow: 2, display: 'flex'}}
+                sx={{ flexGrow: 2, display: !isMobile && 'flex'}}
             >
                 <Box>
                     <Tabs
                         value={value}
                         onChange={handleChange}
                         aria-label="Painel de Propostas"
-                        orientation="vertical"
+                        orientation={isMobile ? "horizontal" : "vertical"}
                         variant="scrollable"
                         sx={{borderRight: 1, borderColor: 'divider', backgroundColor: 'rgba(30, 24, 72, 1)', borderRadius: '16px'}}
                         >
@@ -73,7 +76,7 @@ import Box from '@mui/material/Box';
                     </Tabs>
                 </Box>
                 <TabPanel value={value} index={0}>
-                    <p className="tab-text">A saúde é uma área muito esquecida pela administração estadual e municipais, principalmente
+                    <p className="tab-text">A saúde é uma área muito esquecida pela administração estadual e municipais de RO, principalmente
                     no atendimento a idosos e outras pessoas com necessidades especidades, iremos criar projetos para criação de áreas para esses
                     tipos de pacientes e cobrar o investimento adequado e honesto em centros de sáude.<br /> Também iremos incentivar e apoiar
                     programas de castração, e a criação de abrigos e clínicas pet populares.</p>
@@ -84,7 +87,8 @@ import Box from '@mui/material/Box';
                         Iremos criar projetos para implantação de aulas gratuitas nas áreas de esporte, arte, e musicalização em escolas e igrejas, e
                         ampliação da quantidade de creches públicas para período integral, para assim permitir que mães que não têm condições
                         de pagar uma babá possam trabalhar. Além disso, na intenção de ajudar não só essas mães, mas também mulheres que sofrem
-                        violência doméstica e estão financeiramente presas, iremos criar projetos para cursos profissionalizantes para geração de renda.
+                        violência doméstica e estão financeiramente presas a seus agressores, iremos criar projetos para cursos profissionalizantes
+                        para geração de renda.
                     </p>
                 </TabPanel>
                 <TabPanel value={value} index={2}>
@@ -92,7 +96,7 @@ import Box from '@mui/material/Box';
                         Como Policial Penal há mais de 30 anos, sei que a carência de qualidade no nosso estado é fruto também da desvalorização das
                         carreiras policiais. Irei batalhar para que nossos profissionais heróis sejam valorizados como realmente merecem. Além disso,
                         iremos criar um projeto para criação de uma casa de apoio a mulheres e crianças vítimas de violência doméstica e sexual, com
-                        apoio médico e psicológico.
+                        apoio médico, psicológico, estudantil e protetivo.
                     </p>
                 </TabPanel>
             </Box>

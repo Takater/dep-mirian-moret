@@ -90,10 +90,10 @@ li>a {
   padding: 2% 2% 3% 2%;
 }
 
-@media(max-width: 320px) {
-  #projetos {
-    padding: 2% 10% 3% 10%;
-    font-size: 75% !important;
+@media(max-width: 425px) {
+  .carousel {
+    padding: 2% 20% 3% 20%;
+    font-size: 70% !important;
   }
 }
 
