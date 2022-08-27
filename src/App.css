@@ -150,6 +150,12 @@ li>a {
   font-size: 150%;
 }
 
+@media (max-width: 425px) {
+  .tab-text {
+    font-size: 100%;
+  }
+}
+
 /* CONTATOS */
 
 h3>strong {
